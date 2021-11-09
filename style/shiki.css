@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Ubuntu&display=swap');
+p {font-family: 'Roboto Condensed', sans-serif;}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	height: 85vh;
+	width: 65px;
+	background-image: url("../img/nav_bg_9421b99.png");
+	position: fixed; 
+	right: 10px;
+	z-index: 100000;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0 5px 20px 5px #F6EABE;
+	padding: 75px 0;
+}
+nav .home img{
+	width: 80%;
+}
+
+.button img{
+	width: 100%;
+}
+.button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #F2EEDC;
+	font-family: 'Ubuntu', sans-serif;
+}
+.button img:hover{
+	width: 120%;
+}
+.button{
+	height: 22%
+}
+/*---------------body*/
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+body{
+	background-image: url("../img/1daa4d609e8cd1fa378754306ad96da3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+	
+}
+.container{
+	height: 80%;
+	width: 70%;
+	margin: 70px auto;
+	display: flex;
+	border-radius: 8px;
+	box-shadow: 5px 5px 20px 5px black;
+}
+.a{
+	background-image: url("../img/bg2_f7dd6c1.jpg");
+	background-size: auto;
+}
+.o{
+	background-image: url("../img/thumb-1920-978471.jpg");
+	background-size: cover;
+}
+.t{
+	background-image: url("../img/bg2_021ccee.jpg");
+	background-size: cover;
+}
+.s{
+	background-image: url("../img/nciRd0h.jpg");
+	background-size: cover;
+}
+h1{
+	margin-bottom: 10px;
+}
+.content{
+	width: 50%;
+	height: 60%;
+	overflow: scroll;
+	margin: 120px 50px;
+	color: aliceblue;
+	padding: 20px;
+	line-height: 20px
+}
+.wrapper {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.outside {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+}
+.outside {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display:none;
+}

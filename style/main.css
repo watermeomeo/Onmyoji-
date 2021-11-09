@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Ubuntu&display=swap');
+p {font-family: 'Roboto Condensed', sans-serif;}
+*{
+	margin: 0;
+	padding: 0;
+}
+html{scroll-behavior:smooth}
+.clear{
+	clear: both
+}
+header{
+	background: url("../img/bg.jpg");
+	height: 110vh;
+	position: relative;
+}
+.banner{
+	position: relative
+}
+.baner-img{
+	height: 100vh;
+	width: 100%;
+	position: absolute
+}
+#logo{
+	position: absolute;
+	z-index: 10;
+	top: 30%; left: 45%;
+	width: 10%
+}
+#seimei{
+	position: absolute;
+	width: 30%; top: 205px; left: 30%;
+	z-index: 20
+}
+#yao{
+	position: absolute;
+	width: 26%; top: 215px; left: 18%;
+}
+#sakura{
+	position: absolute;
+	width: 21%; top: 360px; left: 46%;
+	z-index: 30
+}
+#hiromasa{
+	position: absolute;
+	width: 30%; top: 150px; left: 53%;
+}
+/*nav*/
+nav{
+	height: 85vh;
+	width: 65px;
+	background-image: url("../img/nav_bg_9421b99.png");
+	position: fixed; 
+	right: 10px;
+	z-index: 100000;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0 5px 20px 5px #F6EABE;
+	padding: 75px 0;
+}
+nav .home img{
+	width: 80%;
+}
+
+.button img{
+	width: 100%;
+}
+.button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #F2EEDC;
+	font-family: 'Ubuntu', sans-serif;
+}
+#style-banner{
+	position: absolute;
+	bottom: 0;
+	z-index: 200;
+	width: 100%;
+	height: 300px;
+}
+#style-banner2{
+	position: absolute;
+	bottom: 0;
+	z-index: 100;
+	width: 100%;
+	height: 300px;
+}
+.button img:hover{
+	width: 120%;
+}
+.button{
+	height: 22%
+}
+/*event*/
+.hotnew{
+	padding: 10px 0;
+	text-align: center;
+	background-image: url("../img/bg_55cff1d.jpg");
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+.hotnew h1{
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 5px;
+	color: #B28E14;
+	margin: 100px 0 10px;
+	font-size: 32px
+}
+#shokurei{
+	width: 40%;
+	margin: 20px auto;
+	height: 500px;
+	
+}
+#shokurei h3{
+	font-size: 24px;
+	display: flex;
+	padding: 15px 0;
+	text-shadow: 5px 5px 5px lightyellow;
+}
+#shokurei .kishi-shoku{
+	display: flex;
+	height: 100%
+}
+#shokurei .name{
+	position: relative;
+}
+#shokurei .name img{
+	position: absolute;
+	left: 2px;
+	width: 10%
+}
+#shokurei .name h3{
+	position: absolute;
+	top: 3px;
+	left: 20px;
+	z-index: 10;
+	font-size: 28px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold
+}
+#shokurei .tab button.active {
+  background-color: #ccc;
+}
+#shokurei .img{
+	height: 500px;
+	justify-content: center;
+	overflow: hidden;
+}
+#shokurei .img img{
+	height: 500px;
+}
+#shokurei .tab {
+  	overflow: hidden;
+}
+#shokurei .tab button {
+  	background-color: inherit;
+  	border: none;
+  	outline: none;
+  	cursor: pointer;
+  	padding: 14px 16px;
+  	transition: 0.3s;
+  	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+/*banner*/
+.baner-1{
+	width: 100%;
+	height: 90vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	
+}
+.baner-1 img{
+	width: 100%;
+}
+/*event*/
+#mishige{
+	height: 100vh;
+	position: relative;
+	background-image: url("../img/bg_55cff1.jpg");
+	text-align: center;
+	justify-content: center;
+}
+.aboar{
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+	padding: 100px 0;
+}
+#style-cloud1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#style-cloud2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+#mishige h3{
+	font-size: 28px;
+	display: flex;
+	padding: 15px 0;
+	text-shadow: 5px 5px 5px lightyellow;
+}
+#mishige .kishi-shoku{
+	display: flex;
+	height: 100%
+}
+.aboar .name img{
+	position: absolute;
+	left: 2px;
+	width: 10%
+}
+.aboar h3{
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	z-index: 20;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold
+}
+#mishige .tab button.active {
+  background-color: #ccc;
+}
+#mishige .img{
+	height: 500px;
+	justify-content: center;
+	overflow: hidden;
+}
+#mishige .img img{
+	height: 500px;
+}
+#mishige .tab {
+  	overflow: hidden;
+}
+#mishige .tab button {
+  	background-color: inherit;
+  	border: none;
+  	outline: none;
+  	cursor: pointer;
+  	padding: 14px 16px;
+  	transition: 0.3s;
+  	font-size: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 5px 
+}
+/*----------------------------------------------------event*/
+#event{
+	height: 100vh;
+	background-image: url("../img/bg2_0826f3e.jpg");
+	background-size: cover;
+	position: relative;
+}
+.eventboar img{
+	width: 50%;
+	position: absolute;
+	left: 100px;
+	overflow: hidden;
+}
+.tvc{
+	width: 50%;
+	position: absolute;
+	text-align: center;
+	right: 300px;
+	bottom: 150px
+}
+.tvc h1{
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 5px;
+	color: #C39C15;
+	margin: 0 0 30px;
+	font-size: 42px;
+	text-shadow: 3px 3px 5px gray;
+}
+#grid-event{
+	text-align: center;
+	height: 100vh;
+	background: rgb(224,224,224);
+background: linear-gradient(0deg, rgba(224,224,224,0) 0%, rgba(172,172,172,0.7430322470785189) 100%);
+}
+.container{
+	width: 60%;
+	margin: 0 auto;
+	padding:100px 0 10px; 
+	height: 500px;
+	overflow-y: hidden;
+}
+.slides-2 img{
+	width: 100%;	
+}
+#grid-event button{
+	width: 50px;
+	background: #878787;
+	border: none;
+	height: 40px;
+	color: white;
+	margin: 20px 0;
+	font-size: 18px;
+	border-radius: 5px
+}
+#grid-event button:hover{background: #202020}
+#grid-event h1{
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 5px;
+	color: #C39C15;
+	margin: 20px 0;
+	font-size: 32px;
+}
+.event-join{
+background: rgb(224,224,224);
+background: linear-gradient(180deg, rgba(224,224,224,0) 0%, rgba(172,172,172,0.7430322470785189) 100%);
+}
+.join{
+	justify-content: center;
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+	height: 400px;
+	line-height: 400px;
+	padding: 50px 0 150px
+}
+.galla{
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 100%;
+	justify-content: center;
+	grid-gap: 15px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.galla img{
+	box-shadow: 5px 5px 10px 5px lightgray;
+}
+.galla img:hover{
+	width: 101%;
+	transition: 0.5s
+}
+.content h1{
+	transform: rotate(90deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.galla img{
+	width: 100%;
+}
+.join h1{
+	transform: rotate(270deg);
+	float: left;
+	position: absolute;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 3px;
+	color: #B28E14;
+}
+/*---------footer*/
+footer{
+	height: 450px;
+	background: black;
+	background-image: url("../img/bg_de14de8.png");
+	background-size: cover;
+	justify-content: center;
+	text-align: center;
+	color: aliceblue;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 3px;
+}
+footer img{
+	margin: 0 auto;
+	padding: 50px 0 5px;
+	
+}
+footer ul{
+	list-style: none
+}
+footer ul li{
+	display: inline;
+}
+footer a{
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 30px;
+	margin: 25px 10px;
+}
+.linkdow{
+	padding: 25px 10px 25;
+}
+footer h2{
+	margin-bottom: 5px
+}
+footer a:hover{
+	color: #FFC633;
+}
+

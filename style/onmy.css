@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Ubuntu&display=swap');
+p {font-family: 'Roboto Condensed', sans-serif;}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	height: 85vh;
+	width: 65px;
+	background-image: url("../img/nav_bg_9421b99.png");
+	position: fixed; 
+	right: 10px;
+	z-index: 100000;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0 5px 20px 5px #F6EABE;
+	padding: 75px 0;
+}
+nav .home img{
+	width: 80%;
+}
+
+.button img{
+	width: 100%;
+}
+.button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #F2EEDC;
+	font-family: 'Ubuntu', sans-serif;
+}
+.button img:hover{
+	width: 120%;
+}
+.button{
+	height: 22%
+}
+.main{
+	background: url("../img/bg_de14de8 (1).jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+#sei {
+	width: 80%;
+	display: flex;
+	height: 100vh;
+	overflow: hidden;
+}
+#sak {
+	width: 80%;
+	display: flex;
+	height: 100vh;
+	overflow: hidden;
+}
+#hid {
+	width: 80%;
+	display: flex;
+	height: 100vh;
+	overflow: hidden;
+}
+#yao {
+	width: 80%;
+	display: flex;
+	height: 100vh;
+	overflow: hidden;
+}
+.main img{
+	padding: 50px 50px;
+	filter: grayscale(90%);
+	transition: 1s
+}
+.main img:hover{
+	filter: grayscale(0%)
+}
+.content{
+	height: 250px;
+	padding: 30px 10px 0;
+	margin: 200px 10px 0;
+	overflow: scroll;
+	color: #FAFAFA;
+	line-height: 20px
+}
+.main h3{
+	margin: 5px 0
+}
+.main h1{
+	margin: 10px 0;
+	font-size: 32px;
+	color: #CF9E45
+}
+::-webkit-scrollbar {
+  display:none;
+}
+footer{
+	height: 450px;
+	background: black;
+	background-image: url("../img/bg_de14de8.png");
+	background-size: cover;
+	justify-content: center;
+	text-align: center;
+	color: aliceblue;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 3px;
+}
+footer img{
+	margin: 0 auto;
+	padding: 50px 0 5px;
+	
+}
+footer ul{
+	list-style: none
+}
+footer ul li{
+	display: inline;
+}
+footer a{
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 30px;
+	margin: 25px 10px;
+}
+.linkdow{
+	padding: 25px 10px 25;
+}
+footer h2{
+	margin-bottom: 5px
+}
+footer a:hover{
+	color: #FFC633;
+}
+
